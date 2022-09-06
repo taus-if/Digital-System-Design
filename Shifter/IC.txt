@@ -1,0 +1,12 @@
+IC Name --> Gates/IC  ---> Required 
+--------------------------------------
+
+4009(NOT) --> 6 NOT/IC ---> 2
+4071(2in OR) --> 4 OR/IC ---> 2
+4072(4in OR) --> 2 OR/IC ---> 3
+4082(4in AND) --> 2 AND/IC ---> 13
+
+
+Each MUX --> 5 AND(4in), 1 OR(4in), 1 OR(2in) 
+Total Gates for MUX --> 25 AND(4in), 5 OR(4in), 5 OR(2in)
+Total-8 NOT
